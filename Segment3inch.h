@@ -1,6 +1,7 @@
 /*
   Segment3inch.h - Library for 7 Segment code.
   Created by Dani KCM , November 2, 2011.
+  modified by pc-control
   Released into the public domain.
 */
 
