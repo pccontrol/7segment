@@ -1,6 +1,6 @@
 /*
-  Morse.h - Library for flashing Morse code.
-  Created by David A. Mellis, November 2, 2007.
+  Segment3inch.h - Library for 7 segment 3 inch code.
+  Created by pccontrol, November 2, 2014.
   Released into the public domain.
 */
 
