@@ -1,5 +1,5 @@
 /*
-  Segment.cpp - Library for flashing Segment code.
+  Segment.cpp - Library for 7 Segment code.
   Created by Dani KCM , November 2, 2011.
   Released into the public domain.
 */
