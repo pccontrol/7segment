@@ -7,59 +7,7 @@
 
 #include "Arduino.h"
 #include "Segment3inch.h"
-/*
 
-unsigned char textdata[]=
-{
-  //Hbaf gcde
-
-  0b01110111, //untuk angka 0  
-  0b01000100, //untuk angka 1
-  0b01101011, //untuk angka 2
-  0b01101110, //untuk angka 3
-  0b01011100, //untuk angka 4
-  0b00111110, //untuk angka 5
-  0b00111111, //untuk angka 6
-  0b01100100, //untuk angka 7
-  0b01111111, //untuk angka 8
-  0b01111110, //untuk angka 9
-  0b00000000,//10    //blank
-  0b00001000,// -  //minus 11
-0b01101111,//  a 12
-0b00011111,//  b 13
-0b00001011,//  c 14
-0b01001111,//  d 15
-0b00111011,//  E 16
-0b00111001,//  F 17
-0b01111110,//  g 18
-0b00011101,//  h 19
-0b00000001,//  i 20
-0b00100110,//  j 21
-0b00011011,//  k 22
-0b00010011,//  L 23
-0b01110101,//  m 24  xxx
-0b00001101,//  n 25
-0b00001111,//  o 26
-0b01111001,//  P 27
-0b01111001,//  q 28
-0b00001001,//  r 29
-0b00111110,//  S 30
-0b00011011,//  t 31
-0b00000111,//  u 32
-0b00000111,//  V 33  xxx
-0b00000111,//  w 34  xxx
-0b00000111,//  x 35
-0b01011110,//  y 36
-0b01101011, // z 37
-0b00010001,  // I 38
-0b00010101,  // Ii 39  
-0b00001010,  // _eq (=) 40
-0b11000100, //41 untuk angka 1.
-0b11101011, //42 untuk angka 2.
-0b10000000  // _dot 43
-
- }; 
-*/
  unsigned char textdata[]=
 {
 //cdeg baPf
