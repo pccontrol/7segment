@@ -1,0 +1,3 @@
+Segment3inch	KEYWORD1  
+writeAngka	KEYWORD2
+ writeAbjad	KEYWORD2
