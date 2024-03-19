@@ -1,7 +1,11 @@
 
 #include "Segment3inch.h"
 
-Segment3inch displayku(6,7,8); //clock-strobe-data
+#define pinClock    6
+#define pinLatch    7
+#define pinData     8
+
+Segment3inch displayku(pinClock, pinLatch, pinData);
 
 void setup() {
   // put your setup code here, to run once:
@@ -11,8 +15,14 @@ void setup() {
 void loop()
  {
   // put your main code here, to run repeatedly:
-displayku.writeAngka(123,4);
-displayku.writeAngka(456,4);
-displayku.writeAngka(789,4);
-displayku.strobe_74595();
+display7segment(123,1000,999);
+}
+
+void display7segment(int row1, int row2, int row3)
+{
+
+  display7Seg.writeAngka(row3, 4); //tahun
+  display7Seg.writeAngka(row2, 4); //tahun
+  display7Seg.writeAngka(row1, 4); //tahun  
+  display7Seg.strobe_74595();
 }
